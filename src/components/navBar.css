@@ -1,0 +1,17 @@
+/* .all-pages a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 5px;
+  flex-direction: row;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-direction: column;
+} */
