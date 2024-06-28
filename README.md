@@ -9,6 +9,6 @@ Currently, two official plugins are available:
 
 -Project started with React Vite
 -Installation :-
-Bootstrap - npm install react-bootstrap bootstrap
-Routing - npm install react-router-dom
-Material UI -npm install @mui/material @emotion/react @emotion/styled
+-Bootstrap - npm install react-bootstrap bootstrap
+-Routing - npm install react-router-dom
+-Material UI -npm install @mui/material @emotion/react @emotion/styled
