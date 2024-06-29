@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./navBar.css";
 
-export const Navbar = () => {
+export const NavBar = () => {
   return (
     <nav className="navBar">
       <div className="all-pages">

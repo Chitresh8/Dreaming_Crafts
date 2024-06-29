@@ -5,3 +5,76 @@
   flex-direction: row;
   gap: 30px;
 } */
+
+* {
+  margin: 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: medium;
+}
+
+.darkMode {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  border: 0px;
+  transition: 1s;
+  margin: 5px;
+}
+
+.darkBtn {
+  cursor: pointer;
+  outline: 0;
+  grid-gap: 8px;
+  align-items: center;
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-size: 16px;
+  gap: 8px;
+  justify-content: center;
+  line-height: 1.5;
+  overflow: hidden;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: all 1s ease;
+  white-space: nowrap;
+}
+.darkBtn:hover {
+  box-shadow: 4px 4px 0 #000;
+  transform: translate(0px 3px);
+}
+:focus-visible {
+  outline-offset: 1px;
+}
+.lightBtn {
+  align-items: center;
+  background-color: #000;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-size: 16px;
+  gap: 8px;
+  justify-content: center;
+  line-height: 1.5;
+  overflow: hidden;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: all 1s ease;
+  white-space: nowrap;
+}
+.lightBtn:hover {
+  box-shadow: 4px 4px 0 #ffffff;
+  transform: translate(0px 3px);
+}
+:focus-visible {
+  outline-offset: 1px;
+}

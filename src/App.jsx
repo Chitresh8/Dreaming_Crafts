@@ -1,18 +1,32 @@
 import "./App.css";
 import { AboutUs } from "./components/pages/About us/AboutUs";
-import { Catalogue } from "./components/pages/Catalogue/Catalogue";
 import { Contact } from "./components/pages/Contact/Contact";
-import { Header } from "./components/Header/Header";
+import { Catalogue } from "./components/Catalogue/Catalogue";
 import { Home } from "./components/pages/Home/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Navbar } from "./components/NavBar";
+import { Header } from "./components/Header/Header";
+import { useState } from "react";
 
 function App() {
+  const [dayNightMode, setDayNightMode] = useState(false);
+
+  const darkModeHandler = () => {
+    setDayNightMode(!dayNightMode);
+  };
+
+  const backgroundColor = {
+    backgroundColor: dayNightMode ? "black" : "white",
+    color: dayNightMode ? "white" : "black",
+    height: "100vh",
+    width: "100vw",
+    margin: "0px",
+    padding: "0px",
+  };
+
   return (
-    <>
+    <div style={backgroundColor}>
       <div className="app_container">
         <BrowserRouter>
-          <Navbar />
           <Routes>
             <Route
               element={<AboutUs />}
@@ -33,8 +47,33 @@ function App() {
           </Routes>
         </BrowserRouter>
         <Header />
+        {dayNightMode ? (
+          <div className="darkMode">
+            <p>
+              Switch to{" "}
+              <button
+                className="lightBtn"
+                onClick={darkModeHandler}
+              >
+                Light mode
+              </button>
+            </p>
+          </div>
+        ) : (
+          <div className="darkMode">
+            <p>
+              Switch to{" "}
+              <button
+                className="darkBtn"
+                onClick={darkModeHandler}
+              >
+                Dark mode
+              </button>
+            </p>
+          </div>
+        )}
       </div>
-    </>
+    </div>
   );
 }
 
