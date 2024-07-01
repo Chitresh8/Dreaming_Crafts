@@ -6,6 +6,7 @@ import { Home } from "./components/pages/Home/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Header } from "./components/Header/Header";
 import { useState } from "react";
+import { Body } from "./components/Body/Body";
 
 function App() {
   const [dayNightMode, setDayNightMode] = useState(false);
@@ -17,10 +18,8 @@ function App() {
   const backgroundColor = {
     backgroundColor: dayNightMode ? "black" : "white",
     color: dayNightMode ? "white" : "black",
-    height: "100vh",
+    height: "max-content",
     width: "100vw",
-    margin: "0px",
-    padding: "0px",
   };
 
   return (
@@ -47,6 +46,7 @@ function App() {
           </Routes>
         </BrowserRouter>
         <Header />
+
         {dayNightMode ? (
           <div className="darkMode">
             <p>
@@ -72,6 +72,7 @@ function App() {
             </p>
           </div>
         )}
+        <Body />
       </div>
     </div>
   );

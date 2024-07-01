@@ -1,4 +1,4 @@
-/* :root {
+:root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,16 +65,9 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+/* #root {
+  height: 100%;
+  width: 100%;
 } */
-
-.abeezee-regular {
-  font-family: "ABeeZee", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.abeezee-regular-italic {
-  font-family: "ABeeZee", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}

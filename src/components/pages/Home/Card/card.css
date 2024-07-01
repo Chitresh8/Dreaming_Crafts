@@ -14,7 +14,10 @@
 
 .card-image {
   width: 100%;
-  height: auto;
+  height: auto; /* Adjust height automatically to maintain aspect ratio */
+  max-height: 200px; /* Maximum height if you want to limit the size */
+  /* object-fit: contain; Ensures the entire image is visible within the container */
+  object-fit: cover;
 }
 
 .card-content {
@@ -29,4 +32,15 @@
 .card-description {
   font-size: 1em;
   color: #555;
+}
+
+.card-btn {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.viewmore {
+  display: flex;
+  float: right;
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
