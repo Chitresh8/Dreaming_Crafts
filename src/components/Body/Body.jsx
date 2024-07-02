@@ -167,7 +167,15 @@ export const Body = () => {
       />
       <Card
         title="Flower preservation"
-        description="Whole flower preserved into a 5 inches round circle frame."
+        description="10 inches resin clock 
+
+Description:- 
+Unique resin art clock piece , 10 inches diameter, agate edges , we can customised into 8 inches, 10 inches & 12 inches also 
+
+8 inches- 1500/-
+10 inches- 2000/-
+12 inches- 2500/-
+ Shipping charges additional"
         image={images[8]}
         button="Add to Cart"
         buttonTwo="View More"
