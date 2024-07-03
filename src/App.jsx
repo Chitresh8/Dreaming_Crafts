@@ -25,26 +25,6 @@ function App() {
   return (
     <div style={backgroundColor}>
       <div className="app_container">
-        <BrowserRouter>
-          <Routes>
-            <Route
-              element={<AboutUs />}
-              path="/about-us"
-            />
-            <Route
-              element={<Contact />}
-              path="/contact"
-            />
-            <Route
-              element={<Catalogue />}
-              path="/catalogue"
-            />
-            <Route
-              element={<Home />}
-              path="/home"
-            />
-          </Routes>
-        </BrowserRouter>
         <Header />
 
         {dayNightMode ? (
@@ -73,6 +53,26 @@ function App() {
           </div>
         )}
         <Body />
+        <BrowserRouter>
+          <Routes>
+            <Route
+              element={<AboutUs />}
+              path="/about-us"
+            />
+            <Route
+              element={<Contact />}
+              path="/contact"
+            />
+            <Route
+              element={<Catalogue />}
+              path="/catalogue"
+            />
+            <Route
+              element={<Home />}
+              path="/home"
+            />
+          </Routes>
+        </BrowserRouter>
       </div>
     </div>
   );

@@ -6,6 +6,10 @@ export const Catalogue = () => {
   return (
     <>
       <h3>Catalogue</h3>
+      <p>jdsfjkdskjncbkjduikjda</p>
+      <p>
+        kjkskjfuiwekjasbdmasbkjdkjasdkmabskjuewhouehjdahfkjsdfohfdskjfkjsdhoifhewoihofHDAKHKDASJFKJDFDSKJAH
+      </p>
     </>
   );
 };

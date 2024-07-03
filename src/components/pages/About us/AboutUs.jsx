@@ -6,6 +6,9 @@ export const AboutUs = () => {
   return (
     <>
       <h3>AboutUs</h3>
+      <p>
+        iushdushaukckjsdhjaerheiurdkjvnbcnbvdfuowefgbmnvbzkjfguidsgwoeurhmnbcjigfuewfbnsdbvydlifk;afsdabjsdag;iakjdsbvnbygjkdknbvxncvoeirhgmvahguearmnvbjkcbvheaohfmviaha;ohksjfkjdsgao;hkabwfejoeioewupoieihasdhdfdkuoiwuyoeriteorehnxvcncxvxxvvczzxvasdfghjkl;poiuytrewq
+      </p>
     </>
   );
 };

@@ -132,7 +132,7 @@ export const Body = () => {
       <Card
         title="Resin photo frame"
         description="Circular resin frame with a photo and with real flowers."
-        // ,budget friendly option for birthday gifting
+        // ,budget friendly option for birthdaygifting
         image={images[3]}
         button="Add to Cart"
         buttonTwo="View More"
