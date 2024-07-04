@@ -169,7 +169,7 @@ export const Body = () => {
         title="Flower preservation"
         description="10 inches resin clock 
 
-Description:- 
+More info:- 
 Unique resin art clock piece , 10 inches diameter, agate edges , we can customised into 8 inches, 10 inches & 12 inches also 
 
 8 inches- 1500/-
