@@ -59,7 +59,7 @@ export const Header = () => {
         />
         <h6 className="quote">Handmade Gifts Own making</h6>
       </div>
-      <nav>
+      {/* <nav>
         <ul className="nav-links">
           <li>
             <Link to="/home">Home</Link>
@@ -74,7 +74,7 @@ export const Header = () => {
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </div>
   );
 };
