@@ -7,12 +7,24 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Header } from "./components/Header/Header";
 import { useState } from "react";
 import { Body } from "./components/Body/Body";
+import {data} from '../data.js';
 
 function App() {
   const [dayNightMode, setDayNightMode] = useState(false);
+  const [datas, setDatas]=useState(data);
 
   const darkModeHandler = () => {
     setDayNightMode(!dayNightMode);
+  };
+
+  const inputChangeHandler2=(event)=>{
+    setDatas(event.target.value);
+  };
+  const searchClickHandler=()=>{
+   const filters=datas.filter((el)=>{
+    return el.toLowerCase().includes(datas);
+   })
+   setDatas(filters);
   };
 
   const backgroundColor = {
@@ -73,6 +85,13 @@ function App() {
             />
           </Routes>
         </BrowserRouter>
+        <input type='text' name='name' value={datas} onChange={inputChangeHandler2} />
+        <button onClick={searchClickHandler}>Search</button>
+        {datas.map((el)=>{
+          return <div key={el.id}>
+            {el}
+          </div>
+        })}
       </div>
     </div>
   );

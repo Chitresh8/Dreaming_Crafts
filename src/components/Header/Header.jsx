@@ -59,22 +59,6 @@ export const Header = () => {
         />
         <h6 className="quote">Handmade Gifts Own making</h6>
       </div>
-      {/* <nav>
-        <ul className="nav-links">
-          <li>
-            <Link to="/home">Home</Link>
-          </li>
-          <li>
-            <Link to="/about-us">About Us</Link>
-          </li>
-          <li>
-            <Link to="/catalogue">Catalogue</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
-      </nav> */}
     </div>
   );
 };
