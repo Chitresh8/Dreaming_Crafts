@@ -8,6 +8,10 @@ export const Router = () => {
     <div className="router">
       <Routes>
         <Route
+          path="/"
+          element={<Home />}
+        />
+        <Route
           path="/about-us"
           element={<AboutUs />}
         />
@@ -18,10 +22,6 @@ export const Router = () => {
         <Route
           path="/catalogue"
           element={<Catalogue />}
-        />
-        <Route
-          path="/home"
-          element={<Home />}
         />
       </Routes>
     </div>
