@@ -1,6 +1,6 @@
 import { AboutUs } from "./components/pages/About us/AboutUs";
-import { Contact } from "./components/pages/Contact/Contact";
 import { Catalogue } from "./components/Catalogue/Catalogue";
+import { Contact } from "./components/pages/Contact/Contact";
 import { Home } from "./components/pages/Home/Home";
 import { Route, Routes } from "react-router-dom";
 export const Router = () => {

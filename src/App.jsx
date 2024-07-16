@@ -1,8 +1,9 @@
 import "./App.css";
 import { Header } from "./components/Header/Header";
 import { useState } from "react";
-import { Body } from "./components/Body/Body";
 import { data } from "../data.js";
+import { Body } from "./components/Body/Body.jsx";
+import { Router } from "./Router.jsx";
 
 function App() {
   const [dayNightMode, setDayNightMode] = useState(false);
@@ -83,7 +84,8 @@ function App() {
             </p>
           </div>
         )}
-        <Body />
+        <Router/>
+        <Body/>
         <input
           type="text"
           name="name"

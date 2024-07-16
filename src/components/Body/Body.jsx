@@ -52,6 +52,7 @@ import img49 from "../../assets/image49.jpg";
 import img50 from "../../assets/image50.jpg";
 import img51 from "../../assets/image51.jpg";
 
+
 export const Body = () => {
   const images = [
     img1,
