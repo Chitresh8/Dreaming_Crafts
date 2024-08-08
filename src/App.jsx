@@ -4,6 +4,7 @@ import { useState } from "react";
 import { data } from "../data.js";
 import { Body } from "./components/Body/Body.jsx";
 import { Router } from "./Router.jsx";
+import { Login } from "./components/pages/Login/Login.jsx";
 
 function App() {
   const [dayNightMode, setDayNightMode] = useState(false);
@@ -84,8 +85,8 @@ function App() {
             </p>
           </div>
         )}
-        <Router/>
-        <Body/>
+        <Router />
+        <Body />
         <input
           type="text"
           name="name"
@@ -118,6 +119,7 @@ function App() {
           );
         })}
       </div>
+      <Login />
     </div>
   );
 }
